@@ -2,13 +2,13 @@ import "dart:io";
 import "dart:math";
 
 main() {
-  gosho();
-}
-
-gosho() {
   print("Enter coefficient a:");
-  var aString = stdin.readLineSync();
-  var a = num.parse(aString);
+
+  // var aString = stdin.readLineSync();
+  // var a = num.parse(aString);
+
+  var a = num.parse(stdin.readLineSync());
+
   print("Enter coefficient b:");
   var bString = stdin.readLineSync();
   var b = num.parse(bString);
